@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>praticando</title>
+</head>
+<body>
+    <h1>Esse site e para mostrar videos.</h1>
+    <p>veja o video abaxio</p>
+    <video autoplay width="250" poster="imagens/foto-m.png" controls loop>
+        <source src="midia/meu-Video otimizado.mp4" type="video/mp4">
+        <source src="midia/meu-Video.webm" type="video/webm">
+        <p>Seu navegador nao suporta video.</p>
+    </video>
+    <audio controls autoplay>
+        <source src="audio.mp3" type="audio/mp3">
+        <source src="audio.ogg" type="audio/ogg">
+        <source src="audio.wav" type="audio/wav">
+    </audio>
+    <h2>imagens que se adptam</h2>
+    <p>Veja só</p>
+    <picture>
+        <source media="(max-width: 780px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1080px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem grande">
+    </picture>
+    <!--pratica concluida!-->
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionando videos ao meu site HTML5</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedados localmente.</h1>
+    <p>Este vídeo esta hospedado no meu propio servidor.</p>
+    <video width="350" poster="imagens/foto-m.png" autoplay controls loop>
+        <source src="midia/meu-Video.webm" type="video/webm">
+        <source src="midia/meu-Video otimizado.mp4" type="video/mp4"> 
+        <p>Seu navegador não tem compatibilidade com video.</p>
+    </video>
+   <!--esse video acima e uma forma de hospedar o video no seu propio servidor porem colocando videos dessa forma pode gerar altos gastos para o seu cliente,abaixo vamos adicionar videos para esse alto custo ser evitado.-->
+   <h1>Adicionando videos do youtube</h1>  
+   <iframe width="350" height="315" src="https://www.youtube.com/embed/_jwgwvfrV_k?si=QSlqz7GVdGXJlTE_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</body>
+</html>

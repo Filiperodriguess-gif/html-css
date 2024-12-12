@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            background-color: dimgray;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin: 0px;
+        }
+
+        header {
+            text-align: center;
+            background-color: #fff;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            height: 110px;
+        }
+
+        nav {
+            background-color: rgb(101, 101, 101);
+            text-align: center;
+            border-radius: 30px;
+            box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;  
+            width: 250px;
+            padding: 3px;
+            margin: auto;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: #fff;
+            padding: 50px;
+            margin: 10px;
+            border-radius: 90px;
+            box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        article > aside {
+            background-color: darkgrey;
+        }
+
+        footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin: 2px;
+        }
+
+        footer p {
+            margin: 0px;
+        }
+
+
+
+        #assuntos {
+            background-color: black;
+            color: #fff;
+            width: 200px;
+            text-align: center;
+            margin: auto;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .bola {
+            border-radius: 100%;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: #fff;
+            margin: 30px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>noticia sobre desenvolvedores</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam dicta tempora voluptatum dolorem. Non debitis dolores accusamus earum quisquam? Ratione, perferendis corrupti. Nesciunt qui inventore iusto earum expedita ratione est.</p>
+                <aside>
+                    <p>Artigo escrito por Gustavo guanabara</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Filipe dev</p>
+    </footer>
+    <div class="bola" >
+    </div>
+</body>
+</html>

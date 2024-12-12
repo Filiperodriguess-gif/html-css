@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>praticando</title>
+</head>
+<body>
+    <h1>Imagens que se adaptam</h1>
+    <p>adaptando imagens para diferentes tipos de janelas.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="foto grande">
+    </picture>
+    <h2>adicionado audios no site</h2><!--mp3,ogg ou wav,opite por nao usar wav pois é muito pesado/grande-->
+    <p>existem duas formas de adicionar audio em um site</p>
+    <!--primeira forma abaixo-->
+    <audio src="midia/greenery-music.mp3.mp3" autoplay controls></audio>
+    <!--segunda forma abaixo-->
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/guanacast-33.mp3.mp3" type="audio/mpeg">
+        <!--arquivo ogg abaixo-->
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <!--arquivo wav abaixo-->
+        <source src="midia/guanacast-33.wav" type="audio/wav">
+    </audio> 
+    <!--Lembrando evite o uso de arquivos wav.-->
+    <p>caso teu site nao tenha rodado nenhum tipo de arquivo significa que seu navegador infelizmente nao roda audio <a href="midia/guanacast-33.mp3.mp3"> clique aqui para acessar.</a></p>
+    <!--temos sempre que abrir a tag a para caso o navegador do noso usuario nao rode audio.dessa forma podemos direcionar o usuario para o audio.--> 
+</body>
+</html>

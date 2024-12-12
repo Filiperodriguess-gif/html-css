@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* tudo que em html é id em css vai ser # 
+tudo que em html é class em css é . */
+
+body {
+    background-color: #808080;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1#principal {
+    text-align: center;
+    background-color: #00F586;
+    color: #fff;
+    border-radius: 16px;
+}
+
+h1 {
+    color: #fff;
+    background-color: #00F586;
+    border-radius: 16px;
+    font-size: 2em;
+}
+
+h2 {
+    color: #005d33;
+    font-size: normal;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    text-indent: 10px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.basico {
+    color: #005d33;
+    font-weight: bolder;
+}
+
+.intermediario {
+    color: #ffff00;
+}
+
+.avançado {
+    color: #ff0000;
+}
+
+.destaque {
+    background-color: #38bebebe;
+}
